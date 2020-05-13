@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="0.282967">
+<testcase classname="PayPal payment check" name="Validate payment with PayPal profile" time="0.282967">
+<system-out><![CDATA[Given user selects a invoice for payment....................................passed
+When user enters PayPal credentails.........................................passed
+Then user clicks on pay button..............................................passed
+Then user performed PayPal payment successfully.............................passed
+]]></system-out>
+</testcase>
+</testsuite>
