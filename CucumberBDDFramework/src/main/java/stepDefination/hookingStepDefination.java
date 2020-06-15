@@ -8,14 +8,14 @@ import cucumber.api.java.en.When;
 
 public class hookingStepDefination
 {  
-	@Before()
+	//@Before()
 	public void setUp()
 	{
 		System.out.println("Launch FireFox browser");
 		System.out.println("Launch FBO url");
 	}
 	
-	@After()
+	//@After()
 	public void tearDown()
 	{
 		System.out.println("Close the browser");

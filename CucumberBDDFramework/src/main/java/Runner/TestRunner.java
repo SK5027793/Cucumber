@@ -8,12 +8,13 @@ import cucumber.api.junit.Cucumber;
 @RunWith(Cucumber.class)
 @CucumberOptions(
 		
-		features="\\CucumberBDDFramework\\src\\main\\java\\Feature\\TestCase2.feature",//"F:\\eclipse-workspace\\TestDairyBDDFramework\\src\\main\\java\\Feature\\TestCase2.feature",
+		features="F:\\eclipse-workspace\\TestDairyBDDFramework\\src\\main\\java\\Feature\\TestCase2.feature",
 		glue={"stepDefination"},
 		format= {"pretty", "html: test-output"}, //"junit:junit_xml/cucumber.xml"
 		monochrome= true,
-		strict= false,
-		dryRun = true
+		strict= true,
+		dryRun = false
+		
 		//tags = {"~@Smoke","~@Regression", "~@EndToEnd"}
 		//"@Smoke"-------------------------------All test cases having smoke tag
 		//"@Smoke", "~@Regression", "~@EndToEnd"-Test cases with only Smoke tag
